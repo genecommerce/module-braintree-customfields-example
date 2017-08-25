@@ -5,6 +5,11 @@ namespace Gene\CustomFieldsExample\Model\CustomField;
 use Magento\Braintree\Model\CustomFields\CustomFieldInterface;
 use Magento\Braintree\Gateway\Helper\SubjectReader;
 
+/**
+ * Class CustomerId
+ * @package Gene\CustomFieldsExample\Model\CustomField
+ * @author Aidan Threadgold <aidan@gene.co.uk>
+ */
 class CustomerId implements CustomFieldInterface
 {
     /**
