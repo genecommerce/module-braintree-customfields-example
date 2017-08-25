@@ -1,0 +1,26 @@
+{
+  "name": "gene/module-braintree-customfields-example",
+  "description": "An example on how to implement a custom field within Braintree.",
+  "require": {
+    "magento/module-braintree": "^100.4.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gene\\CustomFieldsExample\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Aidan Threadgold",
+      "email": "aidan@gene.co.uk",
+      "homepage": "http://www.gene.co.uk"
+    }
+  ]
+}

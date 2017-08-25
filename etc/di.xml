@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Braintree\Model\CustomFields\Pool">
+        <arguments>
+            <argument name="fields" xsi:type="array">
+                <item name="CustomFieldsExample\CustomerId" xsi:type="object">Gene\CustomFieldsExample\Model\CustomField\CustomerId</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
